@@ -17,6 +17,7 @@
 */
 
 
+#include "postgres.h"
 
 #include <stdio.h>
 #include <string.h>
@@ -29,7 +30,6 @@
 
 /* postgres headers */
 
-#include "postgres.h"
 #include "funcapi.h"
 #include "access/reloptions.h"
 #include "catalog/pg_foreign_server.h"
