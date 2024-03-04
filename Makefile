@@ -32,8 +32,6 @@ DOCS         = README.${EXTENSION}.md
 
 DATA = sql/$(EXTENSION)--$(EXTVERSION).sql
 
-PG_CONFIG    = pg_config
-
 # modify these variables to point to FreeTDS, if needed
 SHLIB_LINK := -lsybdb
 TDS_INCLUDE :=
